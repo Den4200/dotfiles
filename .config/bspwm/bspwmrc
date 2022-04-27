@@ -2,10 +2,11 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
+pgrep -x polybar > /dev/null || polybar &
+
 nitrogen --restore
-picom
+picom &
 dunst &
-$HOME/.config/polybar/launch.sh &
 
 xinput set-prop "DLL0945:00 04F3:311C Touchpad" "libinput Click Method Enabled" 0 1
 xinput set-prop "DLL0945:00 04F3:311C Touchpad" "libinput Tapping Enabled" 1
