@@ -126,7 +126,6 @@ export PATH="$HOME/.poetry/bin:$PATH"
 
 # Alias aoc helper script
 alias aoc=~/code/advent-of-code/aoc.py
-export AOC_SESSION_COOKIE=53616c7465645f5ff093fecc280ed4761141d5bb6aeebe323780576bacb8aeb73cedb0160872b9635b33c535f4605a45
 
 # Alias dotfiles git repo
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
