@@ -6,6 +6,7 @@ pgrep -x polybar > /dev/null || polybar &
 
 picom &
 dunst &
+flameshot &
 
 feh --bg-scale $HOME/.config/feh/sakura.jpg
 
