@@ -25,4 +25,5 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 bspc rule -a CoreShot state=floating
+bspc rule -a minecraft-launcher state=floating
 bspc rule -a discord desktop="^2" follow=on
