@@ -15,11 +15,6 @@ if [[ $(playerctl status -p spotify 2>&1) = "Playing" ]]; then
     ARTIST=$(get_meta spotify artist)
 
     echo "%{F#F0C674}$NAME%{F-} - $ARTIST"
-else
-    if [[ $(playerctl status 2>&1) = "Playing" ]]; then
-	NAME=$(get_meta any title)
-	ARTIST=$(get_meta any artist)
-    fi
 fi
 
 if [[ $NAME != "" ]]; then
